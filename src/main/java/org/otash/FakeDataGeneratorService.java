@@ -18,10 +18,11 @@ public class FakeDataGeneratorService {
 
 
     private static final AtomicLong id = new AtomicLong(1);
+    private static final DecimalFormat df = new DecimalFormat("#".repeat(10) + "." + "##");
     private static final Scanner scanner = new Scanner(System.in);
     private static final Faker faker = new Faker();
     private static final RandomService randomService = faker.random();
-    private static final DecimalFormat df = new DecimalFormat("#".repeat(10) + "." + "##");
+
     private static final Random random = new Random();
     private static final Name name = faker.name();
     private static final PhoneNumber phoneNumber = faker.phoneNumber();
