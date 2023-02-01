@@ -1,37 +1,40 @@
 package org.otash;
 
 public enum FieldType {
-    UUID("\""),
     ID(""),
+    UUID("\""),
+    BOOK_TITLE("\""),
+    BOOK_AUTHOR("\""),
+    POST_TITLE("\""),
+    POST_BODY("\""),
     FIRSTNAME("\""),
     LASTNAME("\""),
     USERNAME("\""),
-    FULL_NAME("\""),
+    FULLNAME("\""),
     BLOOD_GROUP("\""),
     EMAIL("\""),
     GENDER("\""),
     PHONE("\""),
+    LOCAlDATE("\""),
     AGE(""),
     COUNTRY_CODE("\""),
-    CAPITAL("\""),
     COUNTRY_ZIP_CODE("\""),
+    CAPITAL("\""),
     WORD("\""),
     WORDS("\""),
     PARAGRAPH("\""),
     PARAGRAPHS("\""),
     LETTERS("\""),
-    RANDOM_INT(""),
-    RANDOM_DOUBLE(""),
-    ;
+    RANDOM_INT(""), RANDOM_DOUBLE("");
 
-    private String wrapper;
+    private final String i;
 
-    FieldType(String wrapper) {
-        this.wrapper = wrapper;
+    FieldType(String i) {
+        this.i = i;
     }
 
 
-    public String toJson(String fieldName , String value) {
-        return "\"%s\":%s%s%s".formatted(fieldName , wrapper , value , wrapper);
+    public String getRowAsJson(String fieldName , Object data) {
+        return ( "\"" + fieldName + "\" : " + i + data + i );
     }
 }

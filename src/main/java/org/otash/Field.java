@@ -1,18 +1,31 @@
 package org.otash;
 
-
 import lombok.*;
-import org.jetbrains.annotations.NotNull;
 
-@Data
+import java.util.function.Supplier;
+
+
+@Getter
 @Builder
-public class Field implements Comparable<Field> {
+@AllArgsConstructor
+@EqualsAndHashCode( of = {"fieldName" , "fieldType"} )
+public class Field {
+    private final String fieldName;
+    private final FieldType fieldType;
+    private final Supplier<Object> func;
 
-    private String fieldName;
-    private FieldType fieldType;
+    public Field(String fieldName , FieldType fieldType) {
+        this.fieldName = fieldName;
+        this.fieldType = fieldType;
+        this.func = FakerApplicationGeneratorService.functions.get(fieldType);
+    }
+
+    public String getPatternAsJson() {
+        return fieldType.getRowAsJson(fieldName , func.get());
+    }
 
     @Override
-    public int compareTo(@NotNull Field o) {
-        return -1*this.fieldType.ordinal() - o.fieldType.ordinal();
+    public String toString() {
+        return "\033[1;92m%s : %s \033[0m\n".formatted(fieldName , fieldType.name());
     }
 }

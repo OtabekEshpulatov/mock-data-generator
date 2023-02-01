@@ -1,15 +1,20 @@
 package org.otash;
 
+
 public enum FileType {
-    JSON,CSV,SQL;
+    /**
+     * JSON TYPE FOR ****
+     */
+    JSON,
+    CSV, SQL;
 
-    public static FileType getType(String fileType) {
+    public static FileType findByName(String name) {
 
-        for ( FileType value : FileType.values() ) {
-            if(value.name().equalsIgnoreCase(fileType))
-                return value;
+        for ( FileType fileType : values() ) {
+            if ( fileType.name().equalsIgnoreCase(name) )
+                return fileType;
         }
-
-        return null;
+        return FileType.JSON;
     }
+
 }
