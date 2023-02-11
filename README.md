@@ -1,6 +1,3 @@
-# mock-data-generator
-
-
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="MockDataGenerator_0"></a>Mock-Data-Generator</h1>
 <p class="has-line-data" data-line-start="3" data-line-end="5">This is a fake data generator which supports SQL, JSON and CSV file<br>
 formats to generate fake information upto millions of rows per request</p>
