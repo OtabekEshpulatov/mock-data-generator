@@ -19,13 +19,13 @@ paradigm. Here is what I mean:</p>
 
 
 
-               if(problemSize &lt; threshold)<br>
-                solve problem directly
+               if(problemSize < threshold)
+               solve problem directly
                else
                {
                break problem into subproblems
                ecursively solve each subproblem
-                combine the results
+               combine the results
                }
 
 
