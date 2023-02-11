@@ -14,7 +14,7 @@ I want to mention that there is  <a href="https://docs.oracle.com/javase/tutoria
 to balance the workload between all processors by dividing a task into small subtasks.</p>
 <p class="has-line-data" data-line-start="23" data-line-end="27">To use the program, user should define how  many rows of data he/she wants after selecting</br> 
 file format. And then the user need to choose field types and give names to them like “AGE userage”,</br>
-“NAME username” and etc. After collectiong neccessary data, as I mentioned before, the task is divided into small subtasks like “Divide and conquer” paradigm. Here is what I mean:</p>
+“NAME username” and etc. After collectiong neccessary data, as I mentioned before, the task is divided </br> into small subtasks like “Divide and conquer” paradigm. Here is what I mean:</p>
 
 
 
