@@ -24,7 +24,7 @@ paradigm. Here is what I mean:</p>
                else
                {
                break problem into subproblems
-               ecursively solve each subproblem
+               recursively solve each subproblem
                combine the results
                }
 
