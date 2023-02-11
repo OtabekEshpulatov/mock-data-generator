@@ -14,7 +14,7 @@ I want to mention that there is  <a href="https://docs.oracle.com/javase/tutoria
 to balance the workload between all processors by dividing a task into small subtasks.</p>
 <p class="has-line-data" data-line-start="23" data-line-end="27">To use the program, user should define how  many rows of data he/she wants after selecting file format.<br>
 And then the user need to choose field types and give names to them like “AGE userage”, “NAME username” and etc. After collectiong neccessary
-data, as I mentioned before, large tasks are divided into small ones like “Divide and conquer”<br>
+data, as I mentioned before, the task is divided into small subtasks like “Divide and conquer”<br>
 paradigm. Here is what I mean:</p>
 
 
@@ -32,7 +32,6 @@ paradigm. Here is what I mean:</p>
 
 
 <p class="has-line-data" data-line-start="30" data-line-end="32">And at the end you get the result in your hands</p>
-
 <p class="has-line-data" data-line-start="30" data-line-end="32">And of course my application itself is open source with a <a href="https://github.com/OtabekEshpulatov/mock-data-generator">public repoitory</a><br>
 on GitHub.</p>
 <h2 class="code-line" data-line-start=33 data-line-end=34 ><a id="Bot_version_33"></a>Bot version</h2>
