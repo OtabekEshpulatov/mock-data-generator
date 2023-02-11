@@ -16,6 +16,24 @@ to balance the workload between all processors by dividing a task into small sub
 And then the user need to choose field types and give names to them like “AGE userage”, “NAME username” and etc.<br>
 After collectiong neccessary data, as I mentioned before, large tasks are divided into small ones like “Divide and conquer”<br>
 paradigm. Here is what I mean:</p>
+
+if (problemSize < threshold)
+solve problem directly
+else
+{
+break problem into subproblems
+recursively solve each subproblem
+combine the results
+}
+<p class="has-line-data" data-line-start="5" data-line-end="13">if (problemSize &lt; threshold)<br>
+solve problem directly<br>
+else<br>
+{<br>
+<i>break problem into subproblems<br>
+recursively solve each subproblem<br>
+  combine the results</i><br>
+}</p>
+
 <p class="has-line-data" data-line-start="28" data-line-end="29">– Fork join Photo</p>
 <p class="has-line-data" data-line-start="30" data-line-end="32">And of course my application itself is open source with a <a href="https://github.com/OtabekEshpulatov/mock-data-generator">public repoitory</a><br>
 on GitHub.</p>
