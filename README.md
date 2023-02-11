@@ -31,6 +31,8 @@ paradigm. Here is what I mean:</p>
 
 
 
+<p class="has-line-data" data-line-start="30" data-line-end="32">The main idea behind this is to maximumly utilize the processor powers
+in which all idle threads steal the work of busy threads by running parallel</p>
 <p class="has-line-data" data-line-start="30" data-line-end="32">And at the end you get the result in your hands</p>
 <p class="has-line-data" data-line-start="30" data-line-end="32">And of course my application itself is open source with a <a href="https://github.com/OtabekEshpulatov/mock-data-generator">public repoitory</a><br>
 on GitHub.</p>
