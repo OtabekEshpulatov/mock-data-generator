@@ -25,3 +25,4 @@ So that, I created telegram bot version of it where you can go and use it for fr
 to the bot <a href="https://t.me/mockaroo_bot">https://t.me/mockaroo_bot</a>. Before going any further, you’re better to know how the<br>
 bot actually works.</p>
 <p class="has-line-data" data-line-start="40" data-line-end="41">All orders are collected in the form of query. So you need to grasp a little bit about querying.</p>
+<img src="https://drive.google.com/file/d/1HLpDiaKPEHCeGwqVfa1hLHEqw6ACVM8o/view?usp=sharing">
