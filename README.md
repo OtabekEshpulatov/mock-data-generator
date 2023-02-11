@@ -30,13 +30,12 @@ paradigm. Here is what I mean:</p>
 
 
 
-<p class="has-line-data" data-line-start="28" data-line-end="29">– Fork join Photo</p>
 <p class="has-line-data" data-line-start="30" data-line-end="32">And of course my application itself is open source with a <a href="https://github.com/OtabekEshpulatov/mock-data-generator">public repoitory</a><br>
 on GitHub.</p>
 <h2 class="code-line" data-line-start=33 data-line-end=34 ><a id="Bot_version_33"></a>Bot version</h2>
 <p class="has-line-data" data-line-start="35" data-line-end="39">As a developer, I need data to feed my code to check whether it’s functioning properly or not.<br>
-So that, I created telegram bot version of it where you can go and use it for free. Here I’m leaving the link<br>
-to the bot <a href="https://t.me/mockaroo_bot">https://t.me/mockaroo_bot</a>. Before going any further, you’re better to know how the<br>
+So that, I created telegram bot version of it where you can go and use it for free. Here I’m leaving<br>
+<a href="https://t.me/mockaroo_bot">the link</a> to the bot. Before going any further, you’re better to know how the<br>
 bot actually works.</p>
 <p class="has-line-data" data-line-start="40" data-line-end="41">All orders are collected in the form of query. So you need to grasp a little bit about querying.</p>
-![See the image]("https://drive.google.com/file/d/1HLpDiaKPEHCeGwqVfa1hLHEqw6ACVM8o/view?usp=sharing")
+<a href="https://drive.google.com/file/d/1HLpDiaKPEHCeGwqVfa1hLHEqw6ACVM8o/view">Guide to the bot</a>
