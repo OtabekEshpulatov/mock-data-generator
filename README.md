@@ -19,14 +19,14 @@ paradigm. Here is what I mean:</p>
 
 
 
-<p class="has-line-data" data-line-start="5" data-line-end="13">if (problemSize &lt; threshold)<br>
-  <i>solve problem directly</i><br>
-else<br>
-{<br>
-<i>break problem into subproblems<br>
-recursively solve each subproblem<br>
-  combine the results</i><br>
-}</p>
+               p class="has-line-data" data-line-start="5" data-line-end="13">if (problemSize &lt; threshold)<br>
+                <i>solve problem directly</i><br>
+               lse<br>
+               <br>
+               i>break problem into subproblems<br>
+               ecursively solve each subproblem<br>
+                combine the results</i><br>
+               </p>
 
 
 
