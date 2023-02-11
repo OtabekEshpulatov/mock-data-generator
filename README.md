@@ -34,7 +34,7 @@ file format. And then the user need to choose field types and give names to them
 
 
 <p class="has-line-data" data-line-start="30" data-line-end="32">And at the end you get the result in your hands</p>
-<p class="has-line-data" data-line-start="30" data-line-end="32">And of course my application itself is open source with a <a href="https://github.com/OtabekEshpulatov/mock-data-generator">public repoitory</a><br>
+<p class="has-line-data" data-line-start="30" data-line-end="32">And of course my application itself is open source with a <a href="https://github.com/OtabekEshpulatov/mock-data-generator">public repository</a><br>
 on GitHub.</p>
 <h2 class="code-line" data-line-start=33 data-line-end=34 ><a id="Bot_version_33"></a>Bot version</h2>
 <p class="has-line-data" data-line-start="35" data-line-end="39">As a developer, I need data to feed my code to check whether it’s functioning properly or not.<br>
