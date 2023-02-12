@@ -19,12 +19,12 @@ file format. And then the user need to choose field types and give names to them
 
 
                if(problemSize < threshold)
-               solve problem directly
+                  solve problem directly
                else
                {
-               break problem into subproblems
-               recursively solve each subproblem
-               combine the results
+                  break problem into subproblems
+                  recursively solve each subproblem
+                  combine the results
                }
                
                // The main idea behind this is to maximumly utilize the processor powers
